@@ -1,0 +1,167 @@
+:root{
+    --black: #000;
+    --grey: #BDBDBD;
+    --nav-menu-fonts: 18px;
+    --nav-menu-weight: 400;
+    --nav-menu-activ-weight: 600;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1370px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* nav =========
+================ */
+.nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav--menu{
+    display: flex;
+}
+
+.menu__items__link{
+    color: var(--black);
+}
+
+.menu__items__link:hover{
+    font-weight: var(--nav-menu-activ-weight);
+    border-bottom: 2px solid var(--black);
+}
+
+.nav--menu__items{
+    margin-right: 50px;
+}
+
+.nav--menu__items:last-child{
+    margin-right: 0;
+}
+
+.logo{
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 100px;
+}
+
+.logo__opacity{
+    color: var(--grey);
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.logo-name{
+    margin-bottom: 23px;
+}
+
+.nav--icons{
+    display: flex;
+}
+
+.intro{
+    margin-top: 52px;
+    display: flex;
+}
+.intro--info--title__subtitle{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--grey);
+    position: relative;
+    top: 20px;
+}
+.intro--info--title{
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.intro--info__title-h2{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.intro--info__text{
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.dark-mode{
+    width: 62px;
+    height: 32px;
+    background-color: var(--black);
+    border-radius: 30px;
+}
+
+.button{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+    left: 30px;
+}
+
+.price-and-by{
+    text-align: center;
+}
+
+.price{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 228px;
+    height: 60px;
+    background-color: var(--black);
+    color: #FFF;
+    font-size: 32px;
+    border-radius: 30px;
+}
+
+.lang{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.lang-span{
+    font-weight: 400;
+    color: var(--grey);
+    opacity: 50%;
+}
